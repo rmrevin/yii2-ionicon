@@ -13,7 +13,7 @@
     </filter>
     <testsuites>
         <testsuite name="Test Suite">
-            <directory>./tests/unit/socicon</directory>
+            <directory>./tests/unit/ionicon</directory>
         </testsuite>
     </testsuites>
     <logging>

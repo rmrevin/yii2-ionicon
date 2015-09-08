@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69237d980afffb2dd951456676820f55",
+    "hash": "425434e675a7f7e9312896a263613821",
     "packages": [
         {
             "name": "bower-asset/ionicons",

@@ -1,6 +1,6 @@
 <?php
 /**
- * II.php
+ * Ion.php
  * @author Revin Roman
  * @link https://rmrevin.com
  */
@@ -8,10 +8,10 @@
 namespace rmrevin\yii\ionicon;
 
 /**
- * Class II
+ * Class Ion
  * @package rmrevin\yii\ionicon
  */
-class II extends Ionicon
+class Ion extends Ionicon
 {
 
     /** @var string CSS Class prefix */

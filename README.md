@@ -55,24 +55,24 @@ Helper
 ------
 ```php
 
-use rmrevin\yii\ionicon\II;
+use rmrevin\yii\ionicon\Ion;
 
-echo II::icon('social-twitter');
+echo Ion::icon('social-twitter');
 // <i class="ion-social-twitter"></i>
-echo II::icon('social-twitter', ['class' => 'big', 'data-role' => 'social-button']);
+echo Ion::icon('social-twitter', ['class' => 'big', 'data-role' => 'social-button']);
 // <i class="big ion-social-twitter" data-role="social-button"></i>
-echo Html::submitButton(Yii::t('app', '{check} Tweet', ['check' => II::icon('social-twitter')]));
+echo Html::submitButton(Yii::t('app', '{check} Tweet', ['check' => Ion::icon('social-twitter')]));
 // <button type="submit"><i class="ion-social-twitter"></i> Tweet</button>
 
 // autocomplete in IDE
-echo II::icon(II::_SOCIAL_TWITTER);
-echo II::icon(II::_ANDROID_BULB);
+echo Ion::icon(Ion::_SOCIAL_TWITTER);
+echo Ion::icon(Ion::_ANDROID_BULB);
 ```
 
 ### Another prefix
 ```php
-II::$cssPrefix = 'ionicon';
+Ion::$cssPrefix = 'ionicon';
 
-echo II::icon('social-twitter');
+echo Ion::icon('social-twitter');
 // <i class="ionicon-social-twitter"></i>
 ```

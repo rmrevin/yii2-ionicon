@@ -7,7 +7,7 @@
 
 namespace rmrevin\yii\ionicon\component;
 
-use rmrevin\yii\ionicon\II;
+use rmrevin\yii\ionicon\Ion;
 use yii\helpers\Html;
 
 /**
@@ -26,7 +26,7 @@ class Icon
      */
     public function __construct($name, $options = [])
     {
-        Html::addCssClass($options, II::$cssPrefix . '-' . $name);
+        Html::addCssClass($options, Ion::$cssPrefix . '-' . $name);
 
         $this->options = $options;
     }
