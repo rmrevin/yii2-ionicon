@@ -18,6 +18,6 @@ class AssetBundle extends \yii\web\AssetBundle
      * @inherit
      */
     public $css = [
-        'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css',
+        'https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css',
     ];
 }
