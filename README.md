@@ -14,7 +14,14 @@ Code Status
 
 Installation
 ------------
-Add in `composer.json`:
+
+Either run
+
+```bash
+composer require "rmrevin/yii2-ionicon:~1.0.0"
+```
+
+or add in `composer.json`:
 ```
 {
     "require": {
