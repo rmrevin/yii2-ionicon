@@ -18,14 +18,14 @@ Installation
 Either run
 
 ```bash
-composer require "rmrevin/yii2-ionicon:~1.0.0"
+composer require "rmrevin/yii2-ionicon:~1.2"
 ```
 
 or add in `composer.json`:
 ```
 {
     "require": {
-        "rmrevin/yii2-ionicon": "1.0.0"
+        "rmrevin/yii2-ionicon": "~1.2"
     }
 }
 ```
